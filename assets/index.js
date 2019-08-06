@@ -115,8 +115,6 @@
         context.clearRect(0, 0, canvas.width, canvas.height);
         const bg = document.getElementById('bg__blur');
         context.drawImage(bg, 0, 0, canvas.width, canvas.height);
-        const logo = document.getElementById('logo');
-        context.drawImage(logo, canvas.width / 2.9, 30, canvas.width / 3.25, canvas.height / 4);
         const button = document.getElementById('button');
         context.drawImage(button, canvas.width / 2.9, canvas.height / 1.8, canvas.width / 3.25, canvas.height / 7);
         let play__text = "Play Free(visited my repositories)"
